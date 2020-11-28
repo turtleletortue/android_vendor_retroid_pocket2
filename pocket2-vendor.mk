@@ -391,4 +391,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so \
-    vendor/retroid/pocket2/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/retroid/pocket2/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/retroid/pocket2/proprietary/bin/sgdisk:system/bin/sgdisk \
+    vendor/retroid/pocket2/proprietary/bin/vold:system/bin/vold \
