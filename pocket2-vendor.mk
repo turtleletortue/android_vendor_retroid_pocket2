@@ -88,11 +88,13 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/bin/resize_ext4:system/bin/resize_ext4 \
     vendor/retroid/pocket2/proprietary/bin/rtt:system/bin/rtt \
     vendor/retroid/pocket2/proprietary/bin/s62xd:system/bin/s62xd \
+    vendor/retroid/pocket2/proprietary/bin/sgdisk:system/bin/sgdisk \
     vendor/retroid/pocket2/proprietary/bin/sink:system/bin/sink \
     vendor/retroid/pocket2/proprietary/bin/slpd:system/bin/slpd \
     vendor/retroid/pocket2/proprietary/bin/sn:system/bin/sn \
     vendor/retroid/pocket2/proprietary/bin/source:system/bin/source \
     vendor/retroid/pocket2/proprietary/bin/spm_loader:system/bin/spm_loader \
+    vendor/retroid/pocket2/proprietary/bin/startup.sh:system/bin/startup.sh \
     vendor/retroid/pocket2/proprietary/bin/stp_dump3:system/bin/stp_dump3 \
     vendor/retroid/pocket2/proprietary/bin/superumount:system/bin/superumount \
     vendor/retroid/pocket2/proprietary/bin/terservice:system/bin/terservice \
@@ -105,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/bin/tiny_swapoff:system/bin/tiny_swapoff \
     vendor/retroid/pocket2/proprietary/bin/tiny_swapon:system/bin/tiny_swapon \
     vendor/retroid/pocket2/proprietary/bin/tune2fs:system/bin/tune2fs \
+    vendor/retroid/pocket2/proprietary/bin/vold:system/bin/vold \
     vendor/retroid/pocket2/proprietary/bin/wfd:system/bin/wfd \
     vendor/retroid/pocket2/proprietary/bin/wifi2agps:system/bin/wifi2agps \
     vendor/retroid/pocket2/proprietary/bin/wmt_loader:system/bin/wmt_loader \
@@ -201,7 +204,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
     vendor/retroid/pocket2/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/retroid/pocket2/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
-    vendor/retroid/pocket2/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
     vendor/retroid/pocket2/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
     vendor/retroid/pocket2/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
     vendor/retroid/pocket2/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
@@ -258,7 +260,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
     vendor/retroid/pocket2/proprietary/lib/libdcfdecoderjni.so:system/lib/libdcfdecoderjni.so \
     vendor/retroid/pocket2/proprietary/lib/libdirect-coredump.so:system/lib/libdirect-coredump.so \
-    vendor/retroid/pocket2/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/retroid/pocket2/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
     vendor/retroid/pocket2/proprietary/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
     vendor/retroid/pocket2/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
@@ -391,6 +392,8 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib/mediadrm/libmockdrmcryptoplugin.so \
-    vendor/retroid/pocket2/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/retroid/pocket2/proprietary/bin/sgdisk:system/bin/sgdisk \
-    vendor/retroid/pocket2/proprietary/bin/vold:system/bin/vold \
+    vendor/retroid/pocket2/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+
+PRODUCT_PACKAGES += \
+    libaudiocustparam \
+    libdpframework

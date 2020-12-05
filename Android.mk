@@ -17,28 +17,25 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),pocket2)
-include $(call all-makefiles-under,$(LOCAL_PATH))
 
 include $(CLEAR_VARS)
-LOCAL_MODULE = libdpframework
-LOCAL_MODULE_CLASS = SHARED_LIBRARIES
-LOCAL_MODULE_OWNER = mtk
-LOCAL_MODULE_SUFFIX = .so
-LOCAL_PROPRIETARY_MODULE = true
-LOCAL_MULTILIB = 32
-LOCAL_SRC_FILES_32 = proprietary/lib/libdpframework.so
+LOCAL_MODULE := libaudiocustparam
+LOCAL_MODULE_OWNER := retroid
+LOCAL_SRC_FILES := proprietary/lib/libaudiocustparam.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
 
-$(info [pocket2] Copying DP Framework proprietary blobs)
 include $(CLEAR_VARS)
-LOCAL_MODULE = libaudiocustparam
-LOCAL_MODULE_CLASS = SHARED_LIBRARIES
-LOCAL_MODULE_OWNER = mtk
-LOCAL_MODULE_SUFFIX = .so
-LOCAL_PROPRIETARY_MODULE = true
-LOCAL_MULTILIB = 32
-LOCAL_SRC_FILES_32 := proprietary/lib/libaudiocustparam.so
+LOCAL_MODULE := libdpframework
+LOCAL_MODULE_OWNER := retroid
+LOCAL_SRC_FILES := proprietary/lib/libdpframework.so
+LOCAL_MULTILIB := 32
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
 include $(BUILD_PREBUILT)
-
 
 endif
