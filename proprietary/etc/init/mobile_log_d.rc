@@ -4,6 +4,7 @@ on post-fs-data
 
 service mobile_log_d /system/bin/mobile_log_d
     class main
+    disabled
 
 service mmedialogstart /system/bin/mobile_log_d --ftrace mmedia
     oneshot

@@ -9,4 +9,5 @@ service sn /system/bin/sn
     user system
     group system sdcard_rw
     oneshot
+    disabled
 
