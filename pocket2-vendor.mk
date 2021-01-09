@@ -1,4 +1,4 @@
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -34,9 +34,8 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/bin/profmand:system/bin/profmand \
     vendor/retroid/pocket2/proprietary/bin/program_binary_builder:system/bin/program_binary_builder \
     vendor/retroid/pocket2/proprietary/bin/program_binary_service:system/bin/program_binary_service \
-    vendor/retroid/pocket2/proprietary/bin/pservice:system/bin/pservice \
+    vendor/retroid/pocket2/proprietary/vendor/bin/pservice:$(TARGET_COPY_OUT_VENDOR)/bin/pservice \
     vendor/retroid/pocket2/proprietary/bin/rtt:system/bin/rtt \
-    vendor/retroid/pocket2/proprietary/bin/sn:system/bin/sn \
     vendor/retroid/pocket2/proprietary/bin/startup.sh:system/bin/startup.sh \
     vendor/retroid/pocket2/proprietary/bin/storagemanagerd:system/bin/storagemanagerd \
     vendor/retroid/pocket2/proprietary/bin/terservice:system/bin/terservice \
@@ -65,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/etc/init/mobile_log_d.rc:system/etc/init/mobile_log_d.rc \
     vendor/retroid/pocket2/proprietary/etc/init/netdiag.rc:system/etc/init/netdiag.rc \
     vendor/retroid/pocket2/proprietary/etc/init/program_binary_service.rc:system/etc/init/program_binary_service.rc \
-    vendor/retroid/pocket2/proprietary/etc/init/sn.rc:system/etc/init/sn.rc \
     vendor/retroid/pocket2/proprietary/etc/init/storagemanagerd.rc:system/etc/init/storagemanagerd.rc \
     vendor/retroid/pocket2/proprietary/etc/init/terserver.rc:system/etc/init/terserver.rc \
     vendor/retroid/pocket2/proprietary/etc/init/thermalindicator.rc:system/etc/init/thermalindicator.rc \
@@ -73,11 +71,8 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/etc/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
     vendor/retroid/pocket2/proprietary/etc/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml \
     vendor/retroid/pocket2/proprietary/etc/wifi-apns.xml:system/etc/wifi-apns.xml \
-    vendor/retroid/pocket2/proprietary/lib/libBinderServiceP.so:system/lib/libBinderServiceP.so \
+    vendor/retroid/pocket2/proprietary/vendor/lib/libBinderServiceP.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBinderServiceP.so \
     vendor/retroid/pocket2/proprietary/lib/libaal.so:system/lib/libaal.so \
-    vendor/retroid/pocket2/proprietary/lib/libartd-compiler.so:system/lib/libartd-compiler.so \
-    vendor/retroid/pocket2/proprietary/lib/libartd-dexlayout.so:system/lib/libartd-dexlayout.so \
-    vendor/retroid/pocket2/proprietary/lib/libartd.so:system/lib/libartd.so \
     vendor/retroid/pocket2/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
     vendor/retroid/pocket2/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/retroid/pocket2/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
