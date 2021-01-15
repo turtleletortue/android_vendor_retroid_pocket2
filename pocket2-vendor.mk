@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/bin/mdlogger:system/bin/mdlogger \
     vendor/retroid/pocket2/proprietary/bin/meta_tst:system/bin/meta_tst \
     vendor/retroid/pocket2/proprietary/bin/mmp:system/bin/mmp \
-    vendor/retroid/pocket2/proprietary/bin/mobile_log_d:system/bin/mobile_log_d \
     vendor/retroid/pocket2/proprietary/bin/netdiag:system/bin/netdiag \
     vendor/retroid/pocket2/proprietary/bin/profmand:system/bin/profmand \
     vendor/retroid/pocket2/proprietary/bin/program_binary_builder:system/bin/program_binary_builder \
@@ -61,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/etc/init/init.thermald.rc:system/etc/init/init.thermald.rc \
     vendor/retroid/pocket2/proprietary/etc/init/kpoc_charger.rc:system/etc/init/kpoc_charger.rc \
     vendor/retroid/pocket2/proprietary/etc/init/mdlogger.rc:system/etc/init/mdlogger.rc \
-    vendor/retroid/pocket2/proprietary/etc/init/mobile_log_d.rc:system/etc/init/mobile_log_d.rc \
     vendor/retroid/pocket2/proprietary/etc/init/netdiag.rc:system/etc/init/netdiag.rc \
     vendor/retroid/pocket2/proprietary/etc/init/program_binary_service.rc:system/etc/init/program_binary_service.rc \
     vendor/retroid/pocket2/proprietary/etc/init/storagemanagerd.rc:system/etc/init/storagemanagerd.rc \
