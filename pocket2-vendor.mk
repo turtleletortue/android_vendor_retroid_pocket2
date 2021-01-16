@@ -138,7 +138,7 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
     vendor/retroid/pocket2/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/retroid/pocket2/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
-    vendor/retroid/pocket2/proprietary/vendor/bin/hw/android.hardware.audio@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@2.0-service-mediatek \
+    vendor/retroid/pocket2/proprietary/vendor/bin/hw/android.hardware.audio@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@4.0-service-mediatek \
     vendor/retroid/pocket2/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
     vendor/retroid/pocket2/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/retroid/pocket2/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service-mediatek \
@@ -178,7 +178,7 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/etc/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
     vendor/retroid/pocket2/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/retroid/pocket2/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
-    vendor/retroid/pocket2/proprietary/vendor/etc/init/android.hardware.audio@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@2.0-service-mediatek.rc \
+    vendor/retroid/pocket2/proprietary/vendor/etc/init/android.hardware.audio@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@4.0-service-mediatek.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-mediatek.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service-mediatek.rc \
@@ -235,7 +235,7 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/firmware/pcm_suspend.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/pcm_suspend.bin \
     vendor/retroid/pocket2/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/retroid/pocket2/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/retroid/pocket2/proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl-mediatek.so \
+    vendor/retroid/pocket2/proprietary/vendor/lib/hw/android.hardware.audio@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@4.0-impl-mediatek.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/hw/android.hardware.light@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.light@2.0-impl-mediatek.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/hw/android.hardware.sensors@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.sensors@1.0-impl-mediatek.so \
@@ -370,7 +370,7 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_drv.ko \
     vendor/retroid/pocket2/proprietary/vendor/lib/mtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/mtk-ril.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/mtk-rilproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/mtk-rilproxy.so \
-    vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.audio@2.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@2.1_vendor.so \
+    vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.audio@4.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@4.1.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.gnss@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.gnss@1.1_vendor.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.lbs@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.lbs@1.0_vendor.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkcodecservice@1.1_vendor.so \
