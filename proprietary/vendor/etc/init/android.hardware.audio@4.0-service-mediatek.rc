@@ -1,7 +1,7 @@
 on post-fs-data
     mkdir /data/vendor/audiohal 0771 system audio
 
-service audio-hal-2-0 /vendor/bin/hw/android.hardware.audio@2.0-service-mediatek
+service vendor.audio-hal-4-0 /vendor/bin/hw/android.hardware.audio@4.0-service-mediatek
     class hal
     user audioserver
     # media gid needed for /dev/fm (radio) and for /data/misc/media (tee)
@@ -14,3 +14,4 @@ service audio-hal-2-0 /vendor/bin/hw/android.hardware.audio@2.0-service-mediatek
     # and its .rc file has an "onrestart restart audio-hal" rule, thus
     # an additional auto-restart from the init process isn't needed.
     oneshot
+    interface android.hardware.audio@4.0::IDevicesFactory default
