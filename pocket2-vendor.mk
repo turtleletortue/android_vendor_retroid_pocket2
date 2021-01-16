@@ -138,7 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/lib/libvoicerecognition.so:system/lib/libvoicerecognition.so \
     vendor/retroid/pocket2/proprietary/lib/libvoicerecognition_jni.so:system/lib/libvoicerecognition_jni.so \
     vendor/retroid/pocket2/proprietary/lib/libvsync_hint.so:system/lib/libvsync_hint.so \
-    vendor/retroid/pocket2/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/retroid/pocket2/proprietary/lib/libxtables.so:system/lib/libxtables.so \
     vendor/retroid/pocket2/proprietary/lib/libyv12util.so:system/lib/libyv12util.so \
     vendor/retroid/pocket2/proprietary/lib/vendor.mediatek.hardware.nvram@1.0.so:system/lib/vendor.mediatek.hardware.nvram@1.0.so \
