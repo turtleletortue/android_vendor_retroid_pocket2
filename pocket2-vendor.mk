@@ -220,6 +220,12 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/sysenv_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sysenv_daemon.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.0-service.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/wifi2agps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi2agps.rc \
+    vendor/retroid/pocket2/proprietary/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
+    vendor/retroid/pocket2/proprietary/vendor/etc/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
+    vendor/retroid/pocket2/proprietary/vendor/etc/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml \
+    vendor/retroid/pocket2/proprietary/vendor/etc/media_codecs_mediatek_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mediatek_audio.xml \
+    vendor/retroid/pocket2/proprietary/vendor/etc/media_codecs_mediatek_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mediatek_video.xml \
+    vendor/retroid/pocket2/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     vendor/retroid/pocket2/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
     vendor/retroid/pocket2/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/retroid/pocket2/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
@@ -319,7 +325,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/lib/libh264dec_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_xa.ca7.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/libh264dec_xb.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_xb.ca7.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/libh264enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264enc_sa.ca7.so \
-    vendor/retroid/pocket2/proprietary/vendor/lib/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwc2on1adapter.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwm.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/libhwuiext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwuiext.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/libifcutils_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libifcutils_mtk.so \
