@@ -31,8 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/bin/mmp:system/bin/mmp \
     vendor/retroid/pocket2/proprietary/bin/netdiag:system/bin/netdiag \
     vendor/retroid/pocket2/proprietary/bin/profmand:system/bin/profmand \
-    vendor/retroid/pocket2/proprietary/bin/program_binary_builder:system/bin/program_binary_builder \
-    vendor/retroid/pocket2/proprietary/bin/program_binary_service:system/bin/program_binary_service \
     vendor/retroid/pocket2/proprietary/vendor/bin/pservice:$(TARGET_COPY_OUT_VENDOR)/bin/pservice \
     vendor/retroid/pocket2/proprietary/bin/rtt:system/bin/rtt \
     vendor/retroid/pocket2/proprietary/bin/startup.sh:system/bin/startup.sh \
@@ -61,7 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/etc/init/kpoc_charger.rc:system/etc/init/kpoc_charger.rc \
     vendor/retroid/pocket2/proprietary/etc/init/mdlogger.rc:system/etc/init/mdlogger.rc \
     vendor/retroid/pocket2/proprietary/etc/init/netdiag.rc:system/etc/init/netdiag.rc \
-    vendor/retroid/pocket2/proprietary/etc/init/program_binary_service.rc:system/etc/init/program_binary_service.rc \
     vendor/retroid/pocket2/proprietary/etc/init/storagemanagerd.rc:system/etc/init/storagemanagerd.rc \
     vendor/retroid/pocket2/proprietary/etc/init/terserver.rc:system/etc/init/terserver.rc \
     vendor/retroid/pocket2/proprietary/etc/init/thermalindicator.rc:system/etc/init/thermalindicator.rc \
@@ -102,7 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/lib/libged_kpi.so:system/lib/libged_kpi.so \
     vendor/retroid/pocket2/proprietary/lib/libged_sys.so:system/lib/libged_sys.so \
     vendor/retroid/pocket2/proprietary/lib/libgralloc_extra_sys.so:system/lib/libgralloc_extra_sys.so \
-    vendor/retroid/pocket2/proprietary/lib/libgui_debug.so:system/lib/libgui_debug.so \
     vendor/retroid/pocket2/proprietary/lib/libhwm_mtk.so:system/lib/libhwm_mtk.so \
     vendor/retroid/pocket2/proprietary/lib/libja3m.so:system/lib/libja3m.so \
     vendor/retroid/pocket2/proprietary/lib/libjni_eglfence_mtk.so:system/lib/libjni_eglfence_mtk.so \
@@ -127,12 +123,10 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/lib/libopenjdkjvmtid.so:system/lib/libopenjdkjvmtid.so \
     vendor/retroid/pocket2/proprietary/lib/libplatformadapter.so:system/lib/libplatformadapter.so \
     vendor/retroid/pocket2/proprietary/lib/libpq_cust_mtk.so:system/lib/libpq_cust_mtk.so \
-    vendor/retroid/pocket2/proprietary/lib/libprogrambinary.so:system/lib/libprogrambinary.so \
     vendor/retroid/pocket2/proprietary/lib/libsf_debug.so:system/lib/libsf_debug.so \
     vendor/retroid/pocket2/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
     vendor/retroid/pocket2/proprietary/lib/libsysenv_system.so:system/lib/libsysenv_system.so \
     vendor/retroid/pocket2/proprietary/lib/libterservice.so:system/lib/libterservice.so \
-    vendor/retroid/pocket2/proprietary/lib/libui_ext_fwk.so:system/lib/libui_ext_fwk.so \
     vendor/retroid/pocket2/proprietary/lib/libvixld-arm.so:system/lib/libvixld-arm.so \
     vendor/retroid/pocket2/proprietary/lib/libvixld-arm64.so:system/lib/libvixld-arm64.so \
     vendor/retroid/pocket2/proprietary/lib/libvoicerecognition.so:system/lib/libvoicerecognition.so \
@@ -365,7 +359,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstorage_otp.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
-    vendor/retroid/pocket2/proprietary/vendor/lib/libui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui_ext.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/libvc1dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvc1dec_sa.ca7.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_oal.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility.so \
@@ -395,8 +388,17 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.radio@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio@2.0_vendor.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.wifi.hostapd@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.wifi.hostapd@1.0_vendor.so \
-    vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so
+    vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so \
+    vendor/retroid/pocket2/proprietary/vendor/lib/libui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui_ext.so \
+    vendor/retroid/pocket2/proprietary/lib/libui_ext_fwk.so:system/lib/libui_ext_fwk.so \
+    vendor/retroid/pocket2/proprietary/lib/libgui_debug.so:system/lib/libgui_debug.so \
 
 PRODUCT_PACKAGES += \
     libdpframework \
     libion_mtk
+
+
+#     vendor/retroid/pocket2/proprietary/vendor/lib/libui_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui_ext.so \
+#     vendor/retroid/pocket2/proprietary/lib/libui_ext_fwk.so:system/lib/libui_ext_fwk.so \
+#       vendor/retroid/pocket2/proprietary/lib/libgui_debug.so:system/lib/libgui_debug.so \
+
