@@ -21,12 +21,9 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/bin/boot.sh:system/bin/boot.sh \
     vendor/retroid/pocket2/proprietary/bin/boot_logo_updater:system/bin/boot_logo_updater \
     vendor/retroid/pocket2/proprietary/bin/dm_agent_binder:system/bin/dm_agent_binder \
-    vendor/retroid/pocket2/proprietary/bin/emdlogger1:system/bin/emdlogger1 \
-    vendor/retroid/pocket2/proprietary/bin/emdlogger5:system/bin/emdlogger5 \
     vendor/retroid/pocket2/proprietary/bin/ged_srv:system/bin/ged_srv \
     vendor/retroid/pocket2/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
     vendor/retroid/pocket2/proprietary/bin/lcdc_screen_cap:system/bin/lcdc_screen_cap \
-    vendor/retroid/pocket2/proprietary/bin/mdlogger:system/bin/mdlogger \
     vendor/retroid/pocket2/proprietary/bin/meta_tst:system/bin/meta_tst \
     vendor/retroid/pocket2/proprietary/bin/mmp:system/bin/mmp \
     vendor/retroid/pocket2/proprietary/bin/netdiag:system/bin/netdiag \
@@ -39,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/bin/tertestclient:system/bin/tertestclient \
     vendor/retroid/pocket2/proprietary/bin/thermald:system/bin/thermald \
     vendor/retroid/pocket2/proprietary/bin/thermalindicator:system/bin/thermalindicator \
-    vendor/retroid/pocket2/proprietary/bin/vintf:system/bin/vintf \
     vendor/retroid/pocket2/proprietary/etc/a2dp_audio_policy_configuration.xml:system/etc/a2dp_audio_policy_configuration.xml \
     vendor/retroid/pocket2/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/retroid/pocket2/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
@@ -52,17 +48,13 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/etc/init/audiocmdservice_atci.rc:system/etc/init/audiocmdservice_atci.rc \
     vendor/retroid/pocket2/proprietary/etc/init/batterywarning.rc:system/etc/init/batterywarning.rc \
     vendor/retroid/pocket2/proprietary/etc/init/dm_agent_binder.rc:system/etc/init/dm_agent_binder.rc \
-    vendor/retroid/pocket2/proprietary/etc/init/emdlogger1.rc:system/etc/init/emdlogger1.rc \
-    vendor/retroid/pocket2/proprietary/etc/init/emdlogger5.rc:system/etc/init/emdlogger5.rc \
     vendor/retroid/pocket2/proprietary/etc/init/ged_srv.rc:system/etc/init/ged_srv.rc \
     vendor/retroid/pocket2/proprietary/etc/init/init.thermald.rc:system/etc/init/init.thermald.rc \
     vendor/retroid/pocket2/proprietary/etc/init/kpoc_charger.rc:system/etc/init/kpoc_charger.rc \
-    vendor/retroid/pocket2/proprietary/etc/init/mdlogger.rc:system/etc/init/mdlogger.rc \
     vendor/retroid/pocket2/proprietary/etc/init/netdiag.rc:system/etc/init/netdiag.rc \
     vendor/retroid/pocket2/proprietary/etc/init/storagemanagerd.rc:system/etc/init/storagemanagerd.rc \
     vendor/retroid/pocket2/proprietary/etc/init/terserver.rc:system/etc/init/terserver.rc \
     vendor/retroid/pocket2/proprietary/etc/init/thermalindicator.rc:system/etc/init/thermalindicator.rc \
-    vendor/retroid/pocket2/proprietary/etc/permissions/privapp-permissions-mediatek.xml:system/etc/permissions/privapp-permissions-mediatek.xml \
     vendor/retroid/pocket2/proprietary/etc/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
     vendor/retroid/pocket2/proprietary/etc/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml \
     vendor/retroid/pocket2/proprietary/etc/wifi-apns.xml:system/etc/wifi-apns.xml \
@@ -95,7 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/lib/libem_usb_jni.so:system/lib/libem_usb_jni.so \
     vendor/retroid/pocket2/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
     vendor/retroid/pocket2/proprietary/lib/libfile_op_mtk.so:system/lib/libfile_op_mtk.so \
-    vendor/retroid/pocket2/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
     vendor/retroid/pocket2/proprietary/lib/libged_kpi.so:system/lib/libged_kpi.so \
     vendor/retroid/pocket2/proprietary/lib/libged_sys.so:system/lib/libged_sys.so \
     vendor/retroid/pocket2/proprietary/lib/libgralloc_extra_sys.so:system/lib/libgralloc_extra_sys.so \
@@ -134,7 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/lib/libvoicerecognition.so:system/lib/libvoicerecognition.so \
     vendor/retroid/pocket2/proprietary/lib/libvoicerecognition_jni.so:system/lib/libvoicerecognition_jni.so \
     vendor/retroid/pocket2/proprietary/lib/libvsync_hint.so:system/lib/libvsync_hint.so \
-    vendor/retroid/pocket2/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/retroid/pocket2/proprietary/lib/libxtables.so:system/lib/libxtables.so \
     vendor/retroid/pocket2/proprietary/lib/libyv12util.so:system/lib/libyv12util.so \
     vendor/retroid/pocket2/proprietary/lib/vendor.mediatek.hardware.nvram@1.0.so:system/lib/vendor.mediatek.hardware.nvram@1.0.so \
