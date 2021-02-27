@@ -26,13 +26,10 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/bin/lcdc_screen_cap:system/bin/lcdc_screen_cap \
     vendor/retroid/pocket2/proprietary/bin/meta_tst:system/bin/meta_tst \
     vendor/retroid/pocket2/proprietary/bin/mmp:system/bin/mmp \
-    vendor/retroid/pocket2/proprietary/bin/netdiag:system/bin/netdiag \
     vendor/retroid/pocket2/proprietary/bin/profmand:system/bin/profmand \
     vendor/retroid/pocket2/proprietary/vendor/bin/pservice:$(TARGET_COPY_OUT_VENDOR)/bin/pservice \
-    vendor/retroid/pocket2/proprietary/bin/rtt:system/bin/rtt \
     vendor/retroid/pocket2/proprietary/bin/startup.sh:system/bin/startup.sh \
     vendor/retroid/pocket2/proprietary/bin/storagemanagerd:system/bin/storagemanagerd \
-    vendor/retroid/pocket2/proprietary/bin/terservice:system/bin/terservice \
     vendor/retroid/pocket2/proprietary/bin/tertestclient:system/bin/tertestclient \
     vendor/retroid/pocket2/proprietary/bin/thermald:system/bin/thermald \
     vendor/retroid/pocket2/proprietary/bin/thermalindicator:system/bin/thermalindicator \
@@ -51,9 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/etc/init/ged_srv.rc:system/etc/init/ged_srv.rc \
     vendor/retroid/pocket2/proprietary/etc/init/init.thermald.rc:system/etc/init/init.thermald.rc \
     vendor/retroid/pocket2/proprietary/etc/init/kpoc_charger.rc:system/etc/init/kpoc_charger.rc \
-    vendor/retroid/pocket2/proprietary/etc/init/netdiag.rc:system/etc/init/netdiag.rc \
     vendor/retroid/pocket2/proprietary/etc/init/storagemanagerd.rc:system/etc/init/storagemanagerd.rc \
-    vendor/retroid/pocket2/proprietary/etc/init/terserver.rc:system/etc/init/terserver.rc \
     vendor/retroid/pocket2/proprietary/etc/init/thermalindicator.rc:system/etc/init/thermalindicator.rc \
     vendor/retroid/pocket2/proprietary/etc/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
     vendor/retroid/pocket2/proprietary/etc/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml \
@@ -110,15 +105,11 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/lib/libnvram_mtk.so:system/lib/libnvram_mtk.so \
     vendor/retroid/pocket2/proprietary/lib/libnvram_platform_mtk.so:system/lib/libnvram_platform_mtk.so \
     vendor/retroid/pocket2/proprietary/lib/libnvram_sec_mtk.so:system/lib/libnvram_sec_mtk.so \
-    vendor/retroid/pocket2/proprietary/lib/libopenjdkd.so:system/lib/libopenjdkd.so \
-    vendor/retroid/pocket2/proprietary/lib/libopenjdkjvmd.so:system/lib/libopenjdkjvmd.so \
-    vendor/retroid/pocket2/proprietary/lib/libopenjdkjvmtid.so:system/lib/libopenjdkjvmtid.so \
     vendor/retroid/pocket2/proprietary/lib/libplatformadapter.so:system/lib/libplatformadapter.so \
     vendor/retroid/pocket2/proprietary/lib/libpq_cust_mtk.so:system/lib/libpq_cust_mtk.so \
     vendor/retroid/pocket2/proprietary/lib/libsf_debug.so:system/lib/libsf_debug.so \
     vendor/retroid/pocket2/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
     vendor/retroid/pocket2/proprietary/lib/libsysenv_system.so:system/lib/libsysenv_system.so \
-    vendor/retroid/pocket2/proprietary/lib/libterservice.so:system/lib/libterservice.so \
     vendor/retroid/pocket2/proprietary/lib/libui_ext_fwk.so:system/lib/libui_ext_fwk.so \
     vendor/retroid/pocket2/proprietary/lib/libvixld-arm.so:system/lib/libvixld-arm.so \
     vendor/retroid/pocket2/proprietary/lib/libvixld-arm64.so:system/lib/libvixld-arm64.so \
@@ -155,7 +146,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/bin/netdagent:$(TARGET_COPY_OUT_VENDOR)/bin/netdagent \
     vendor/retroid/pocket2/proprietary/vendor/bin/netdc:$(TARGET_COPY_OUT_VENDOR)/bin/netdc \
     vendor/retroid/pocket2/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
-    vendor/retroid/pocket2/proprietary/vendor/bin/rttv:$(TARGET_COPY_OUT_VENDOR)/bin/rttv \
     vendor/retroid/pocket2/proprietary/vendor/bin/spm_loader:$(TARGET_COPY_OUT_VENDOR)/bin/spm_loader \
     vendor/retroid/pocket2/proprietary/vendor/bin/stp_dump3:$(TARGET_COPY_OUT_VENDOR)/bin/stp_dump3 \
     vendor/retroid/pocket2/proprietary/vendor/bin/sysenv_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/sysenv_daemon \
