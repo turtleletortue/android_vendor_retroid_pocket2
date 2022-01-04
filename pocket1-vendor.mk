@@ -129,7 +129,7 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/lib/libyv12util.so:system/lib/libyv12util.so \
     vendor/retroid/pocket2/proprietary/lib/vendor.mediatek.hardware.nvram@1.0.so:system/lib/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/retroid/pocket2/proprietary/lib/vendor.mediatek.hardware.pq@2.0.so:system/lib/vendor.mediatek.hardware.pq@2.0.so \
-    vendor/retroid/pocket2/proprietary/usr/keylayout/Vendor_2020_Product_0111.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_2020_Product_0111.kl \
+    vendor/retroid/pocket2/proprietary/usr/keylayout/Vendor_2020_Product_0111.kl.pocket1:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_2020_Product_0111.kl \
     vendor/retroid/pocket2/proprietary/usr/keylayout/mtk-kpd.kl.pocket1:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/mtk-kpd.kl
 PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
