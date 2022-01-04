@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/etc/init/kpoc_charger.rc:system/etc/init/kpoc_charger.rc \
     vendor/retroid/pocket2/proprietary/etc/init/program_binary_service.rc:system/etc/init/program_binary_service.rc \
     vendor/retroid/pocket2/proprietary/etc/init/storagemanagerd.rc:system/etc/init/storagemanagerd.rc \
-    vendor/retroid/pocket2/proprietary/etc/init/terserver.rc:system/etc/init/terserver.rc \
     vendor/retroid/pocket2/proprietary/etc/init/thermalindicator.rc:system/etc/init/thermalindicator.rc \
     vendor/retroid/pocket2/proprietary/etc/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
     vendor/retroid/pocket2/proprietary/etc/usb_audio_policy_configuration.xml:system/etc/usb_audio_policy_configuration.xml \
@@ -183,24 +182,16 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service-mediatek.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
-    vendor/retroid/pocket2/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
-    vendor/retroid/pocket2/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
-    vendor/retroid/pocket2/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
-    vendor/retroid/pocket2/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/init.wmt_chrdev_wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_chrdev_wifi.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/init_connectivity.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_connectivity.rc \
-    vendor/retroid/pocket2/proprietary/vendor/etc/init/md_ctrl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_ctrl.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/merged_hal_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/merged_hal_service.rc \
-    vendor/retroid/pocket2/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
-    vendor/retroid/pocket2/proprietary/vendor/etc/init/rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild.rc \
-    vendor/retroid/pocket2/proprietary/vendor/etc/init/rilproxy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rilproxy.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/spm_script.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/spm_script.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/sysenv_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sysenv_daemon.rc \
     vendor/retroid/pocket2/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.0-service.rc \
@@ -386,3 +377,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libdpframework \
     libion_mtk
+
+# Removed
+#    vendor/retroid/pocket2/proprietary/etc/init/terserver.rc:system/etc/init/terserver.rc \
+#    vendor/retroid/pocket2/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
+#    vendor/retroid/pocket2/proprietary/vendor/etc/init/rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild.rc \
+#    vendor/retroid/pocket2/proprietary/vendor/etc/init/rilproxy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rilproxy.rc \
+#    vendor/retroid/pocket2/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
+#    vendor/retroid/pocket2/proprietary/vendor/etc/init/init.cccifsd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccifsd.rc \
+#    vendor/retroid/pocket2/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
+#    vendor/retroid/pocket2/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
+#    vendor/retroid/pocket2/proprietary/vendor/etc/init/md_ctrl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_ctrl.rc \
