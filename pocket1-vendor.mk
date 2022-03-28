@@ -27,8 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/bin/meta_tst:system/bin/meta_tst \
     vendor/retroid/pocket2/proprietary/bin/mmp:system/bin/mmp \
     vendor/retroid/pocket2/proprietary/bin/profmand:system/bin/profmand \
-    vendor/retroid/pocket2/proprietary/bin/program_binary_builder:system/bin/program_binary_builder \
-    vendor/retroid/pocket2/proprietary/bin/program_binary_service:system/bin/program_binary_service \
     vendor/retroid/pocket2/proprietary/vendor/bin/pservice.pocket1:$(TARGET_COPY_OUT_VENDOR)/bin/pservice \
     vendor/retroid/pocket2/proprietary/bin/startup.sh:system/bin/startup.sh \
     vendor/retroid/pocket2/proprietary/bin/storagemanagerd:system/bin/storagemanagerd \
@@ -51,7 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/etc/init/ged_srv.rc:system/etc/init/ged_srv.rc \
     vendor/retroid/pocket2/proprietary/etc/init/init.thermald.rc:system/etc/init/init.thermald.rc \
     vendor/retroid/pocket2/proprietary/etc/init/kpoc_charger.rc:system/etc/init/kpoc_charger.rc \
-    vendor/retroid/pocket2/proprietary/etc/init/program_binary_service.rc:system/etc/init/program_binary_service.rc \
     vendor/retroid/pocket2/proprietary/etc/init/storagemanagerd.rc:system/etc/init/storagemanagerd.rc \
     vendor/retroid/pocket2/proprietary/etc/init/thermalindicator.rc:system/etc/init/thermalindicator.rc \
     vendor/retroid/pocket2/proprietary/etc/r_submix_audio_policy_configuration.xml:system/etc/r_submix_audio_policy_configuration.xml \
