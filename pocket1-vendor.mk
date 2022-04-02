@@ -371,6 +371,14 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.wifi.hostapd@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.wifi.hostapd@1.0_vendor.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so
 
+PRODUCT_COPY_FILES += \
+    vendor/retroid/pocket2/proprietary/vendor/lib/android.hardware.audio.common@2.0-util_v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@2.0-util_v27.so \
+    vendor/retroid/pocket2/proprietary/vendor/lib/android.hardware.audio.common@2.0-util_v28.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@2.0-util_v28.so \
+    vendor/retroid/pocket2/proprietary/vendor/lib/android.hardware.audio.common@2.0_v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@2.0_v27.so \
+    vendor/retroid/pocket2/proprietary/vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@2.0-impl.so \
+    vendor/retroid/pocket2/proprietary/vendor/lib/android.hardware.audio@2.0_v27.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio@2.0_v27.so \
+
+
 PRODUCT_PACKAGES += \
     libdpframework \
     libion_mtk

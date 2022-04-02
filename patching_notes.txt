@@ -1,0 +1,21 @@
+Note: Use patchelf 0.9 from https://github.com/LineageOS/android_prebuilts_extract-tools/blob/lineage-18.1/linux-x86/bin/patchelf-0_9
+
+For symbol: CANNOT LINK EXECUTABLE "/vendor/bin/hw/android.hardware.audio@2.0-service-mediatek": cannot locate symbol "_ZN7android8hardware5audio4V2_08toStringENS2_6ResultE" referenced by "/vendor/lib/vendor.mediatek.hardware.audio@2.1_vendor.so"...
+Patch: /vendor/bin/hw/android.hardware.audio@2.0-service-mediatek
+Include: vndk 27 android.hardware.audio@2.0.so as android.hardware.audio@2.0_v27.so in vendor
+Command: patchelf-0_9 --add-needed android.hardware.audio@2.0_v27.so android.hardware.audio@2.0-service-mediatek
+
+For symbol: CANNOT LINK EXECUTABLE "/vendor/bin/hw/android.hardware.audio@2.0-service-mediatek": cannot locate symbol "_ZN7android8hardware5audio6common4V2_08toStringENS3_11AudioDeviceE" referenced by "/vendor/lib/android.hardware.audio@2.0_v27.so"...
+Patch: /vendor/bin/hw/android.hardware.audio@2.0-service-mediatek
+Include: vndk 27 android.hardware.audio.common@2.0.so as android.hardware.audio.common@2.0_v27.so
+Command: patchelf-0_9 --add-needed android.hardware.audio.common@2.0_v27.so android.hardware.audio@2.0-service-mediatek
+
+For symbol: Failed to dlopen android.hardware.audio@2.0-impl-mediatek.so: dlopen failed: cannot locate symbol "_ZN7android9HidlUtils16audioConfigToHalERKNS_8hardware5audio6common4V2_011AudioConfigEP12audio_config" referenced by "/vendor/lib/hw/android.hardware.audio@2.0-impl-mediatek.so"...
+Patch: /vendor/lib/hw/android.hardware.audio@2.0-impl-mediatek.so
+Include: vndk 27 android.hardware.audio.common@2.0-util.so as android.hardware.audio.common@2.0-util_v27.so
+Command: patchelf-0_9 --add-needed android.hardware.audio.common@2.0-util_v27.so android.hardware.audio@2.0-impl-mediatek.so
+
+(Unsure about this one since this library *SHOULD* be built from source)
+For symbol: Failed to dlopen android.hardware.audio.effect@2.0-impl.so: dlopen failed: cannot locate symbol "_ZN7android8hardware5audio6common4V2_09HidlUtils11uuidFromHalERK12audio_uuid_sPNS3_4UuidE" referenced by "/vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so"...
+Include: vndk 28 android.hardware.audio.common@2.0-util.so as android.hardware.audio.common@2.0-util_v28.so (Note: grab this from vndk prebuilts from Lineage 17.1 source from binder32 folder)
+Command: patchelf-0_9 --add-needed android.hardware.audio.common@2.0-util_v28.so android.hardware.audio.effect@2.0-impl.so
