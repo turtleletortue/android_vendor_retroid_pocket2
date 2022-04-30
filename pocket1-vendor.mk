@@ -140,13 +140,11 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service-mediatek \
     vendor/retroid/pocket2/proprietary/vendor/bin/hw/merged_hal_service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/merged_hal_service \
     vendor/retroid/pocket2/proprietary/vendor/bin/hw/power_native_test:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_native_test \
-    vendor/retroid/pocket2/proprietary/vendor/bin/hw/rilproxy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rilproxy \
     vendor/retroid/pocket2/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.0-service \
     vendor/retroid/pocket2/proprietary/vendor/bin/md_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/md_ctrl \
     vendor/retroid/pocket2/proprietary/vendor/bin/mfv_ut:$(TARGET_COPY_OUT_VENDOR)/bin/mfv_ut \
     vendor/retroid/pocket2/proprietary/vendor/bin/mrdump_tool:$(TARGET_COPY_OUT_VENDOR)/bin/mrdump_tool \
     vendor/retroid/pocket2/proprietary/vendor/bin/mtkradiooptions:$(TARGET_COPY_OUT_VENDOR)/bin/mtkradiooptions \
-    vendor/retroid/pocket2/proprietary/vendor/bin/mtkrild:$(TARGET_COPY_OUT_VENDOR)/bin/mtkrild \
     vendor/retroid/pocket2/proprietary/vendor/bin/muxreport:$(TARGET_COPY_OUT_VENDOR)/bin/muxreport \
     vendor/retroid/pocket2/proprietary/vendor/bin/netdagent:$(TARGET_COPY_OUT_VENDOR)/bin/netdagent \
     vendor/retroid/pocket2/proprietary/vendor/bin/netdc:$(TARGET_COPY_OUT_VENDOR)/bin/netdc \
@@ -356,8 +354,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/lib/modules/wlan_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wlan_drv.ko \
     vendor/retroid/pocket2/proprietary/vendor/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_chrdev_wifi.ko \
     vendor/retroid/pocket2/proprietary/vendor/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/wmt_drv.ko \
-    vendor/retroid/pocket2/proprietary/vendor/lib/mtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/mtk-ril.so \
-    vendor/retroid/pocket2/proprietary/vendor/lib/mtk-rilproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/mtk-rilproxy.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.audio@2.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@2.1_vendor.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.gnss@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.gnss@1.1_vendor.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.lbs@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.lbs@1.0_vendor.so \
@@ -366,8 +362,6 @@ PRODUCT_COPY_FILES += \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.0_vendor.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.power@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@1.1_vendor.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.0_vendor.so \
-    vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio.deprecated@1.1_vendor.so \
-    vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.radio@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.radio@2.0_vendor.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.wifi.hostapd@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.wifi.hostapd@1.0_vendor.so \
     vendor/retroid/pocket2/proprietary/vendor/lib/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.wifi.supplicant@1.1_vendor.so
 
